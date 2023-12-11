@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <main className="flex flex-col w-full min-h-screen bg-slate-50">
+        <main className="flex flex-col w-full min-h-screen bg-main-200">
           <Toaster />
           <QueryProvider>{children}</QueryProvider>
         </main>

@@ -25,7 +25,7 @@ const RewardsPage = ({
   const miner = useFetchMiner({ id: params.miner_id as string });
   return (
     <section className="flex-1 flex-col flex justify-center items-center bg-gradient-to-r from-pink-300 to-rose-300">
-      <Card className="w-full max-w-sm py-4">
+      <Card className="sm:max-w-[425px] max-w-[360px] py-4">
         <CardHeader>
           <CardTitle>{miner.data?.name}</CardTitle>
           <CardDescription>

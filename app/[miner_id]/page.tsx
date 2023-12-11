@@ -93,7 +93,7 @@ const RewardsPage = ({
             >
               <Badge className="bg-main-500 text-xs text-center w-[10rem] flex justify-center items-center">
                 Like our <br />
-                Facebook page
+                Facebook page + 5 pts
               </Badge>
             </Link>
           </>
@@ -129,7 +129,7 @@ const RewardsPage = ({
             >
               <Badge className="bg-main-500 text-xs text-center w-[10rem] flex justify-center items-center">
                 Share our <br />
-                Facebook page
+                Facebook page + 5 pts
               </Badge>
             </Link>
           </>
